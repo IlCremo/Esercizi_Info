@@ -1,4 +1,6 @@
 /*
+Â© Cremonesi Andrea 2020
+
 Realizzare un programma che legga tre valori interi (n1, n2, n3) compresi tra [1 e 100] 
 e poi presenti a video il seguente menu` di operazioni possibili:
 	A - somma tra n1, n2 e n3
@@ -7,8 +9,8 @@ e poi presenti a video il seguente menu` di operazioni possibili:
 	D - divisione tra n1 e n2 (risultato double).
 	X - uscita dal programma
 
-Legge poi un carattere da tastiera: se il carattere e` tra quelli indicati nel menu`, si deve eseguire l’operazione richiesta, 
-stampare i numeri utilizzati nell’operazione e il risultato e poi ripresentare il menu` 
+Legge poi un carattere da tastiera: se il carattere e` tra quelli indicati nel menu`, si deve eseguire lâ€™operazione richiesta, 
+stampare i numeri utilizzati nellâ€™operazione e il risultato e poi ripresentare il menu` 
 altrimenti il carattere deve essere ignorato e si deve ripresentare solo il menu`.
 
 Nel caso il carattere sia X, il programma termina.
