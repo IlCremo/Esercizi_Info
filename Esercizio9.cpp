@@ -30,7 +30,7 @@ int main(int argc, char *argv[]){
 	
 	/* -Input- */
 	do{
-		cout << "Inserire il valore di n1 [1,100] -> ";
+		cout << "Inserire il valore di n1 ["<<MIN<<", "<<MAX<<"] -> ";
 		cin >> n1;
 		if(n1 < MIN || n1 > MAX)
 			cout << "Il valore non e' valido\n";
@@ -38,14 +38,14 @@ int main(int argc, char *argv[]){
 	}while(n1 < MIN || n1 > MAX);
 	
 	do{
-		cout << "Inserire il valore di n2 [1,100] -> ";
+		cout << "Inserire il valore di n2 ["<<MIN<<", "<<MAX<<"] -> ";
 		cin >> n2;
 		if(n2 < MIN || n2 > MAX)
 			cout << "Il valore non e' valido\n";
 	}while(n2 < MIN || n2 > MAX);
 	
 	do{
-		cout << "Inserire il valore di n3 [1,100] -> ";
+		cout << "Inserire il valore di n3 ["<<MIN<<", "<<MAX<<"] -> ";
 		cin >> n3;
 		if(n3 < MIN || n3 > MAX)
 			cout << "Il valore non e' valido\n";
